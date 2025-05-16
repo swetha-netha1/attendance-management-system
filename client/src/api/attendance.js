@@ -1,5 +1,5 @@
 export const submitAttendance = async (data) => {
-    const response = await fetch('http://localhost:5000/api/attendance', {
+    const response = await fetch('https://attendance-management-system-xxgc.onrender.com', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
